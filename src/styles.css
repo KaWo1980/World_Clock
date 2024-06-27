@@ -5,30 +5,24 @@ body {
   color: #000000;
   background-color: #ffffff;
 }
-header {
-  border-bottom: 1px solid #000000;
-  padding: 40px 0 40px 0;
-}
-h1{
-  text-align: center;
-}
-h2 {
-  margin: 10px 0;
-  font-size: 20px;
-}
-hr {
-  margin: 50px 0 30px 0;
-  height: 1px;
-  background-color: #000000;
-  border: none;
+
+select {
+width: 100%;
+border-radius: 5px;
+padding: 10px 5px;
+margin: 20px 0;
+font-size: 16px;
 }
 
-footer {
-  margin-top: 50px;
+h1 {
   text-align: center;
-  border-top: 1px solid #000000;
-  padding-top: 40px;
+  font-size: 45px;
 }
+h2 {
+  font-size: 26px;
+  margin: 0 0 5px;
+}
+
 a {
   color: #000000;
   text-decoration: none;
@@ -37,8 +31,9 @@ a {
 a:hover {
   color: #696969;
 }
-.background {
-  max-width: 800px;
+
+.container {
+  max-width: 600px;
   margin: 50px auto;
   padding: 40px 100px;
   border-radius: 10px;
@@ -48,4 +43,35 @@ a:hover {
     rgb(255, 255, 255) 0%,
     rgb(221, 221, 221) 100%
   );
+}
+
+.city {
+  display: flex;
+  margin: 10px 0;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 1px dashed #696969;
+}
+
+.city:last-child {
+  border: none;
+}
+
+.time {
+font-size: 40px;
+font-weight: 600;
+}
+
+.time small{
+font-size: 20px;
+vertical-align: middle;
+}
+
+.date {
+opacity: 0.5;}
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+  padding-top: 40px;
 }
